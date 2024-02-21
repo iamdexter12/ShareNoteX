@@ -73,4 +73,9 @@ public class AuthController {
 		}
 
 	}
+
+	@GetMapping("/welcome")
+	String welcome() {
+		return "Welcome to ShareNoteX";
+	}
 }
